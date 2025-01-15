@@ -1,5 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  experimental: {
+    middlewarePrefetch: "strict", // Usa "strict" o "flexible"
+  },
   images: {
     remotePatterns: [
       {
