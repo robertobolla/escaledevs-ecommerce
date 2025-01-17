@@ -11,7 +11,7 @@ const ProductItem = ({ product }) => {
           width={400}
           height={350}
           alt="image"
-          className="rounded-t-lg h-[250px] object-cover"
+          className="rounded-t-lg h-[200px] object-cover"
         />
         <div className="flex justify-between items-center bg-gray-50 p-3 rounded-b-lg">
           <div className="p-3">

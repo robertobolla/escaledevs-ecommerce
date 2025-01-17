@@ -26,7 +26,7 @@ function ProductSection() {
 
   return (
     productList && (
-      <div className="px-10 md:px-20">
+      <div className="px-10 md:px-20 pb-14">
         <h2 className="font-medium text-[20px] my-3">React & Nexts Projects</h2>
         <ProductList productList={filterProductList("react-projects")} />
         <h2 className="font-medium text-[20px] my-3">Plugins Wordpress</h2>

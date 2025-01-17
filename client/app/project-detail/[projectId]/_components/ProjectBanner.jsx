@@ -2,11 +2,11 @@ import Image from "next/image";
 
 const ProjectBanner = ({ product }) => {
   return (
-    <div className="pt-28">
+    <div className="pt-2">
       {product ? (
         <Image
           src={product?.attributes?.image?.data?.[0]?.attributes?.url}
-          width={400}
+          width={700}
           height={400}
           alt="image"
           className="rounded-lg object-cover sm:float:right text-center"

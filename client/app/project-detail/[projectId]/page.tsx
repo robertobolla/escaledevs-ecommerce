@@ -37,7 +37,7 @@ function ProjectDetail({ params }) {
         <ProjectBanner product={productDetail} />
         <ProjectInfo product={productDetail} />
         {productList && (
-          <div className="mt-20">
+          <div className="mt-20 ">
             <h2 className="font-medium text-[20px] mb-4">Similar Projects</h2>
             <ProductList productList={productList} />
           </div>
