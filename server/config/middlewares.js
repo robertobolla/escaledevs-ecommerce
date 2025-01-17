@@ -25,7 +25,14 @@ module.exports = [
       },
     },
   },
-  "strapi::cors",
+  {
+    name: "strapi::cors",
+    config: {
+      origin: ["https://escaledevs.com", "https://api.escaledevs.com"],
+      methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
+      headers: ["Content-Type", "Authorization"],
+    },
+  },
   "strapi::poweredBy",
   "strapi::logger",
   "strapi::query",
