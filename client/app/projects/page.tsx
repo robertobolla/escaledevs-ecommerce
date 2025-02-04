@@ -44,7 +44,7 @@ function Projects() {
   );
 
   return (
-    <div className="px-10 md:px-20">
+    <div className="px-10 md:px-20 min-h-[80vh]">
       {/* Filter by Category */}
       <h2 className="font-medium text-[20px] my-3">Filter by Category</h2>
       <div className="flex flex-wrap gap-4 mb-5">
